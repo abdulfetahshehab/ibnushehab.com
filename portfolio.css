@@ -1,0 +1,176 @@
+body{
+    overflow-x: hidden;
+}
+
+.myhead{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: sticky;
+    top: -70px;
+}
+.myhead a{
+    font-style: italic;
+    font-size:xx-small;
+
+}
+#project{
+    background-image: url('portimage/proj2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: brown;
+}
+
+#acadamic{
+    background-image: url('portimage/shelf4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+#project a{
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+#project a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+#more{
+    background-image: url('portimage/map.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.phone a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+#p_info{
+    background-image: url('portimage/city.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: burlywood;
+}
+
+#skill{
+    background-image: url('portimage/lap.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(251, 247, 250);
+    
+}
+
+.skills-content {
+    margin-top: 30px;
+  }
+  
+.skills-content .progress {
+    height: 80px;
+    display: block;
+    background: none;
+    border-radius: 0;
+  }
+  
+.skills-content .progress .skill {
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: #f2f2f2;
+  }
+  
+.skills-content .progress .skill .val {
+    float: right;
+    font-style: normal;
+  }
+  
+.skills-content .progress-bar-wrap {
+    background: #e6e8eb;
+    height: 20px;
+  }
+  
+  .skills-content .progress-bar-htm {
+    width: 95%;
+    height: 20px;
+    transition: 0.9s;
+    background-color: #ffb727;
+  }
+  .skills-content .progress-bar-cs {
+    width: 90%;
+    height: 20px;
+    transition: 0.9s;
+    background-color: #ffb727;
+  }
+  .skills-content .progress-bar-jsc {
+    width: 75%;
+    height: 20px;
+    transition: 0.9s;
+    background-color: #ffb727;
+  }
+  .skills-content .progress-bar-btt {
+    width: 80%;
+    height: 20px;
+    transition: 0.9s;
+    background-color: #ffb727;
+  }
+  .skills-content .progress-bar-ard {
+    width: 95%;
+    height: 20px;
+    transition: 0.9s;
+    background-color: #ffb727;
+  }
+  .skills-content .progress-bar-bcs {
+    width: 100%;
+    height: 20px;
+    transition: 0.9s;
+    background-color: #ffb727;
+  }
+  
+#language{
+
+    background-image: url('portimage/shelf6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#university{
+    background-color: silver;
+}
+/* 
+.social-links {
+   
+    align-content: center;
+    justify-content: center;
+  }
+  
+.social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #ffb727;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+.social-links a:hover {
+    background: #f2ebde;
+    color: black;
+    text-decoration: none;
+  } */
+
+.copyright {
+    color: white;
+    align-items: center;
+    justify-content: center;
+  }
+  .pro p{
+    font-size: 12px;
+    color: green;
+  }
