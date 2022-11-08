@@ -4,7 +4,6 @@ body{
 
 .myhead{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    position: sticky;
     top: -70px;
 }
 .myhead a{
@@ -45,6 +44,10 @@ body{
     text-decoration: none;
     color: #f2f2f2;
 }
+.phone a:hover{
+  text-decoration: underline;
+  color: rgb(18, 30, 50);
+}
 #p_info{
     background-image: url('portimage/city.jpg');
     background-repeat: no-repeat;
@@ -53,7 +56,7 @@ body{
 }
 
 #skill{
-    background-image: url('portimage/lap.jpg');
+    background-image: url('portimage/lap3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(251, 247, 250);
@@ -126,6 +129,10 @@ body{
     height: 20px;
     transition: 0.9s;
     background-color: #ffb727;
+  }
+ #skill h5{
+    color: black;
+    font-weight:bold;
   }
   
 #language{
