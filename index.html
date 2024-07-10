@@ -1,534 +1,512 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="IMAGOCH/android.jpg">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <title>MyPortFolio</title>
+    <title>Abdulfetah</title>
+    <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/bootstrap.css">
-    <link rel="stylesheet" href="portfolio.css"> 
-    <style>
-      .animate_char{
-        text-transform: uppercase;
-        background-image: linear-gradient(-300deg,#231557 0%,#44107a 29%,#2bf146 50%,#ff1361 67%, #fff 80%,#fff800 100%);
-        background-size: auto auto;
-        background-clip: border-box;
-        background-size: 200% auto;
-        color: #fff;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        animation: textclip 3s linear infinite;
-        display: inline-block;
-        
-      }
-      @keyframes textclip{
-        to{
-          background-position: 200% center;
-        }
-      }
-
-
-
-
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-
-    <div class="sticky-top  myhead bg-info">
-        <h1 class="text-center text-dark  pt-1 fst-italic"> WELCOME TO ABDULFETAH PORTFOLIOS</h1>
-
-        <div class=" text-center p-4 m-3 border-top border-dark border-start border-5 rounded-circle shadow-lg">
-
-            <a href="#p_info" class="btn animate_char btn-sm btn-outline-info btn-success "> PERSONAL INFO</a>            
-            <a href="#acadamic" class="btn animate_char btn-sm btn-outline-info btn-success">ACADAMIC</a>          
-            <a href="#skill" class="btn animate_char btn-sm btn-outline-info btn-success">SKILL</a>
-            <a href="#language" class="btn animate_char btn-sm btn-outline-info btn-success">LANGUAGE</a>           
-            <a href="#project" class="btn animate_char btn-sm btn-outline-info animate_char btn-success">PROJECT</a>
-            <a href="#university" class="btn animate_char btn-sm btn-outline-info btn-success">DOCUMENT</a>
-            <a href="#more" class="btn animate_char btn-sm btn-outline-info btn-success">FOR MORE</a>
-
+    <div class="main-container">
+        <!-- Aside Start -->
+        <div class="aside">
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+             
+            <ul class="nav">
+                <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="#service"><i class="fa fa-list"></i>Services</a></li>
+                <li><a href="#language"><i class="fa fa-language"></i>Language</a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
+            </ul>
         </div>
-      </div>
-
-
-        <section class="mx-1 mb-1" id="p_info">
-
-          <div class="text-center py-4">
-            <h1 style="color:  #ffb727;" class="animate_char pb-5">DO YOU WANT TO KNOW MORE ABOUT MY BACKGROUND ? </h1>
-            <!-- <h4 class="pb-3">WELCOME TO MY BACKGROUND INFORMATION</h4> -->
-          </div>
-          <div class="profile">
-            <div class="profile_content ">
-              <div class="profile_content_inner ">
-                <div class="titles">
-                  <h1>WELCOME</h1>
+        <!-- Aside end -->
+        <!-- Main Content start -->
+         
+        <div class="main-content">
+            <!-- heading section start -->
+            <header class="heading">
+                <div class="heading_container">
+                    <ul class="heading_content">
+                        <li class="heading_item"><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+                        <li class="heading_item"><a href="#about"><i class="fa fa-user"></i>About</a></li>
+                        <li class="heading_item"><a href="#service"><i class="fa fa-list"></i>Services</a></li>
+                        <li class="heading_item"><a href="#language"><i class="fa fa-language"></i>Language</a></li>
+                        <li class="heading_item"><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                        <li class="heading_item"><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
+                    </ul>
                 </div>
-                <div class="par ">
-                  <p>Name : Abdulfetah Shehab Muzeyen</p>
-                  <p>Nationality : Ethiopian</p>
-                  <p>Birth Place : Dire Dawa</p>
-                  <p>Marital Status : Single</p>
-                  <p>Sex : MALE</p>
-                  <p> Software Developer</p>
-                  <p>Home Address : Addis Ababa</p>
+             </header>
+             <!-- heading section end -->
+              
+            <!-- Home section Start -->
+            <section class="home section" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15"> 
+                            <h3 class="hello">Hello, My Name is <span>Abdulfetah Shehab</span></h3>
+                            <h3 class="my-profession">I'm a <span class="typing">Web designer</span></h3>
+                            <p id="para">I'm a web designer with extensive experiance for more than 2 years. In addition to web designer i have an experiance to designe Brocher, Flyer, Bussines Card, Roll-up Banner, Banner and ....
+                                <br>
+                                <br>
+                            Abdulfetah also have an skill of Hardware Programming like Arduino, PIC Microcontroller and basic Pytone languages.  Abdulfetah is also Electric and solar installer</p>
+                            <a href="#contact" class="btn hire-me">Hire Me</a>
+                        </div>
+                        <div class="home-img padd-15">
+                            <img src="images/gold.jpg" alt="">
+                        </div>
+                    </div>
                 </div>
-                <div class="btns">
-                  <a href="#skill" class="btns_more">See More</a>
-                </div>
-              </div>
-            </div>
-            <div class="profile_outer_Img">
-              <div class="img-inner">
-                <img  src="IMAGOCH/gold.jpg" style="width: 45%;" alt="" class="profile_Img">
-              </div>
-            </div>
-          </div>
-          <div class="overlay"></div>
-
-          <!-- <div class="row justify-content-center">
-
-            <div class="col-8 row px-2">
-             <img class="col-md-6 pb-5" src="IMAGOCH/amu_111.jpg" alt="" style="width: 45%;"> 
-             <div class="col-md-6 fst-italic text-white fw-bold">
-              <p>Name : Abdulfetah Shehab Muzeyen</p>
-              <br>
-              <p>Nationality : Ethiopian</p>
-              <br>
-              <p>Birth Place : Dire Dawa</p>
-              <br>
-              <p>Marital Status : Single</p>
-              <br>
-              <p>Sex : MALE</p>
-              <br>
-              <p> Software Developer</p>
-              <br>
-              <p>Home Address : Addis Ababa</p>
-            </div>
-            </div>
+            </section>
+            <!-- home section end -->
             
-          </div> -->
-
-        </section>
-
-        <section class="mx-1" id="skill">
-
-            <div class="row p-4 justify-content-center  ">
-              <h1 class="text-center fs-1 pt-5 pb-3 ">Programing and Computer Skills</h1>
-              <div class="col-sm-5  ">
-                <h2 class="text-success animate_char fw-bold fst-italic" >Hardware programing</h2>
-                <h5>-> Arduino Programing</h5>
-                <h5>-> Python Programing</h5>
-                <h5>-> Proteus</h5>
-                <h5>-> Assemblle Language</h5>
-
-              </div>
-              <div class="col-sm-5 "  >
-                <h2 class="text-success fw-bold fst-italic animate_char">Software Programing</h2>
-                <h5>-> Android Studio</h5>
-                <h5>-> Html</h5>
-                <h5>-> Css</h5>
-                <h5>-> Bootstrap</h5>
-                <h5>-> Java Script</h5>
-                <h5>-> Java</h5>
-              </div>
-              <div class="col-sm-5 "  >
-                <h2 class="text-success fw-bold fst-italic animate_char">General Skills</h2>
-                <h5>-> Basic Computer Skill</h5>
-                <h5>-> Documentation</h5>
-              </div>
-            </div>
-
-            <!-- Skill Progress -->
-            <div class="skills-content mx-5 ps-lg-4">
-              <div class="progress">
-                <span class="skill">HTML <i class="val">95%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar-htm" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+            <!-- About section Start -->
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>I'm Abdulfetah Shehab and <span>Web Developer</span></h3>
+                                    <p>I'm gradute of Jimma University in 2021 in Electrical and Computer Engineering (Focus area of Industrial Control Engineering) with <span>CGPA of 3.86. </span> And due to scoring the highest grade from the Faculty i got a <span> GOLD MEDAL REWARD.</span></p>
+                                    <p></p>
+                                </div>
+                            </div> 
+                            <div class="row ">
+                                <div class="personal-info about_animate padd-15">
+                                    <div>
+                                        <h3 class="title">Personal Informations</h3>
+                                    </div>
+                                    <div class="row">
+                                        <div class="info-item">
+                                            <p>Full Name : <span>Abdulfetah Shehab Muzeyen</span></p>
+                                        </div>
+                                        <div class="info-item">
+                                            <p>Bsc Degree : <span>Electrical and Computer Engineering</span></p>
+                                        </div>
+                                        <div class="info-item">
+                                            <p>Email : <span>abshehabece2@gmail.com</span></p>
+                                        </div>
+                                        <div class="info-item">
+                                            <p>Phone Number : <span>0932173857</span></p>
+                                        </div>
+                                        <div class="info-item">
+                                            <p>Address  : <span>Addis Ababa/ Dire Dawa </span></p>
+                                        </div>
+                                        <div class="info-item">
+                                            <p>Freelance : <span>Available</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons">
+                                            <a href="cv.pdf" download class="btn">Download CV</a>
+                                            <a href="#contact" class="btn hire-me">Hire Me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill about_animate padd-15">
+                                    <div>
+                                        <h3 class="title">Skills</h3>
+                                    </div>
+                                    <div class="row">
+                                        <div class="skill-item">
+                                            <h5>JavaScript</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 80%;"></div>
+                                                <div class="skill-percent">80%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <h5>HTML</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 90%;"></div>
+                                                <div class="skill-percent">90%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <h5>CSS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 85%;"></div>
+                                                <div class="skill-percent">85%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <h5>Bootstrap</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 70%;"></div>
+                                                <div class="skill-percent">70%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="education">
+                                    <h3 class="title">Education</h3>
+                                    <div class="row">
+                                        <div class="timline-box">
+                                            <div class="timline shadow-dark">
+                                                <div class="timline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timline-date">
+                                                        <i class="fa fa-calendar"></i>  2016-2021
+                                                    </h3>
+                                                    <h4 class="timline-title">Bsc Degree in Electrical and Computer Engineering</h4>
+                                                    <p class="timline-text">I got my first Bsc Degree from Jimma University in Electrical and Computer Engineering (in Focus area of Industrial Control Engineering).
+                                                        <br>
+                                                    <span>My CGPA is 3.86.</span>
+                                                    <br>
+                                                    <span>I Achieved a GOLD MEDAL REWARD.</span>
+                                                    </p>
+                                                </div>
+                                                <div class="timline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timline-date">
+                                                        <i class="fa fa-calendar"></i>  2014-2016
+                                                    </h3>
+                                                    <h4 class="timline-title">Dire Dawa Secondary and Comprehensive School</h4>
+                                                    <p class="timline-text">I finished my Preparatory in Dire Dawa Secondary nad Comprehensive School with high performance in class and National Exam.</p>
+                                                </div>
+                                                <div class="timline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timline-date">
+                                                        <i class="fa fa-calendar"></i>  2004-2013
+                                                    </h3>
+                                                    <h4 class="timline-title">Melak Jebdu Primary and Secondary School</h4>
+                                                    <p class="timline-text">I finishied my Primary and Seconday in Melka Jebdu Primary and Secondary School within best achievement in class and National Exam by scoring the Second highst grade from the School </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="experiance">
+                                    <h3 class="title">Work Experiance</h3>
+                                    <div class="row">
+                                        <div class="timline-box">
+                                            <div class="timline shadow-dark">
+                                                <div class="timline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timline-date">
+                                                        <i class="fa fa-calendar"></i>  2021-2022
+                                                    </h3>
+                                                    <h4 class="timline-title">Ethiopian Electric utility</h4>
+                                                    <p class="timline-text">I have a work Expeiance for 1 year in Ethiopian Electric Utility on Position of Junior Electrical Engineer</p>
+                                                </div>
+                                                <div class="timline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timline-date">
+                                                        <i class="fa fa-calendar"></i>  2022-now
+                                                    </h3>
+                                                    <h4 class="timline-title">Alfurat Solar Tech Manufacturing PLC.</h4>
+                                                    <p class="timline-text">I have also an additional work experiance on position of Senior Electricla engineer from 2022 up to now on Solar Installation</p>
+                                                </div>
+                                                <div class="timline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timline-date">
+                                                        <i class="fa fa-calendar"></i>  2021-now
+                                                    </h3>
+                                                    <h4 class="timline-title">Web  Developmnet</h4>
+                                                    <p class="timline-text">I have an experiance of Web Developing, brocher and differnt Banner Designinig on person not on Company. For Example :- </p>
+                                                    <br>
+                                                    <a href="https://alfuraatsolar.000webhostapp.com/">www.Alfuraat-Solar-Tech</a>
+                                                    
+                                                </div>
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
+            </section>
+            <!-- About section end -->
 
-              <div class="progress ">
-                <span class="skill">CSS <i class="val">90%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar-cs" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            <!-- Service section Start -->
+            <section class="service section" id="service">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2>Service</h2>
+                        </div>
+                    </div>
+                    <div class="row service_animate">
+                        <div class="service-item" id="service_item">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>Website Designing and Developing.</p>
+                            </div>
+                        </div>
+                        <div class="service-item" id="service_item">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-palette"></i>
+                                </div>
+                                <h4>Graphic Design</h4>
+                                <p>Designing of Brocher, Flayer, Bussines Card, Roll-up Banner and differnt size of normal Banner</p>
+                            </div>
+                        </div>
+                        <div class="service-item" id="service_item">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-tools"></i>
+                                </div>
+                                <h4>Installation</h4>
+                                <p>Electriacal Installation and Solar Installation for different Purpose</p>
+                            </div>
+                        </div>
+                    </div>                    
                 </div>
-              </div>
+            </section>
+            <!-- service section end -->
 
-              <div class="progress">
-                <span class="skill">JavaScript <i class="val">75%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar-jsc" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            <!-- Language section Start -->
+             <section id="language" class="language section">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Language Skill</h2>
+                        <div class="row ">
+                            <div class="row ">
+                                <div class="language-item language_each">
+                                    <div class="language-progress" id="language_progress">
+                                        <div class="language-content" id="language_content">
+                                            <span>Amharic</span>
+                                            <span>99%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="language-item language_each">
+                                    <div class="language-progress">
+                                        <div class="language-content">
+                                            <span>Afan-oromo<span>                         <span>95%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="language-item language_each" >
+                                    <div class="language-progress">
+                                        <div class="language-content">
+                                            <span>Af-somali<span>
+                                            <span>85%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="language-item language_each">
+                                    <div class="language-progress">
+                                        <div class="language-content">
+                                            <span>English<span>                            <span>80%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="language-item language_each">
+                                    <div class="language-progress">
+                                        <div class="language-content">
+                                            <span>Arabic<span>                             <span>88%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="row"> -->
+                            
+                            <!-- </div> -->
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="progress">
-                <span class="skill">Bootstrap <i class="val">80%</i></span>
-                <div class="progress-bar-wrap ">
-                  <div class="progress-bar-btt" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+             </section>
+
+            <!-- language section end -->
+
+            <!-- portfolio section start -->
+             <section class="portfolio section" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2>Portfolio</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-heading">
+                            <h2>My Last Project</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-item projects">
+                            <h5>Website</h5>
+                            <div class="portfolio-item-inner shadow-dark">
+                                
+                                <div class="portfolio-img">
+                                    <img src="images/Screenshot (32).png" height="240px" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item projects">
+                            <h5>Website</h5>
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/Screenshot (31).png" height="240px alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item projects">
+                            <h5>Roll-up Banner</h5>
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/rollup2.JPG" height="240px alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item projects">
+                            <h5>Brocher</h5>
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/broch-1.png" height="240px alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item projects">
+                            <h5>Brocher</h5>
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/broch-2.png" height="240px alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item projects">
+                            <h5>Roll-up Banner</h5>
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/rollup3.jpg" height="240px" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
 
-              <div class="progress">
-                <span class="skill">Arduino <i class="val">95%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar-ard" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+             </section>
+
+            <!-- portfolio section end -->
+            <!-- Contact section Start -->
+             <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2>Contact Me</h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title">Have You Any Question ?</h3>
+                    <h4 class="contact-sub-title">I'm Ready.</h4>
+                    <div class="row">
+                        <div class="contact-info-item">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            
+                            <h4>Call us on</h4>
+                            <a href="+251932173857">0932173857</a>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <a href="abshehabece2@gmail.com">abshehabece2@gmail.com</a>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                            <h4>Address</h4>
+                            <p>Addis Ababa/ Dire Dawa</p>
+                        </div>
+                    </div>
+                    <h3 class="contact-title">SEND ME ANY EMAIL</h3>
+                    <h4 class="contact-sub-title">I'M RESPONSIVE TO ANY MESSAGES</h4>
+                    <!-- CONTACT FORM -->
+                    <div class="row">
+                        <div id="error_display">       
+                        </div>
+                
+                        <form  action="" id="form-list" >
+                            <div class="row ">
+                                <div class="two-one">
+                                    <label  for="fname">*Full Name</label>
+                                    <input id="f_name" name="f-name" type="text" placeholder="Write your Full Name"> 
+                                </div>
+                                <div class="two-one">
+                                    <label for="email">*Email</label>
+                                    <input id="e_mail" name="e-mail" type="email" placeholder="Write you Email">
+                                </div>                    
+                            </div>                           
+                            <label for="confirmaion">Subject</label>
+                            <br>
+                            <input id="subject" type="password" placeholder="Subject">
+                            <br>
+                            <label for="confirmaion">*Message</label>
+                            <br>
+                            <textarea id="messages" type="password" placeholder="Put Your Message"></textarea>
+                            <br>
+                            <div id="success_display">       
+                            </div>
+                            <br>
+                            <button id="btn" type="submit">Send Message</button>
+                
+                        </form>
+
+                        <!-- <div class="contact-form" id="contact_form">
+                            <div class="row">
+                                <div class="form-item col-6">
+                                    <div class="form-group">
+                                        <input type="text" id="name" class="form-control" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="form-item col-6">
+                                    <div class="form-group">
+                                        <input type="email" id="email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12">
+                                    <div class="form-group">
+                                        <input type="text" id="subject" class="form-control" placeholder="Subject">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12">
+                                    <div class="form-group">
+                                        <textarea name="" id="text_area" class="form-control" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="success_display">       
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12" id="form_submit">
+                                    <button type="submit" id="send" class="btn">Send Message</button>
+                                </div>
+                            </div>
+                        </div> -->
+                     </div>
                 </div>
-              </div>
+             </section>
+            <!-- contact section end -->
 
-              <div class="progress">
-                <span class="skill">Basic Computer Skil <i class="val">100%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar-bcs" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
-            
-          </div>
-        </section>
-
-
-        <section class="mx-1 py-4 text-center mt-1" id="language">
-          <h1 class="pt-5">Wooooow Iam from Dire Dawa So.... </h1>
-          <h1 class="pb-3">Don't Worry About Language Skill</h1>
-          <div class="px-5 ">
-            <table class="table text-warning fw-bold table-striped">
-              <thead>
-                <tr>
-                  <th scope="col">Language</th>
-                  <th scope="col">Speaking</th>
-                  <th scope="col">Listning</th>
-                  <th scope="col">Reading</th>
-                  <th scope="col">Writning</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">Amharic</th>
-                  <td>Excellent</td>
-                  <td>Excellent</td>
-                  <td>Excellent</td>
-                  <td>Excellent</td>
-                </tr>
-                <tr>
-                  <th scope="row">Oromifa</th>
-                  <td>Excellent</td>
-                  <td>Excellent</td>
-                  <td>Excellent</td>
-                  <td>Excellent</td>
-                </tr>
-                <tr>
-                  <th scope="row">Somali</th>
-                  <td>Excellent</td>
-                  <td>Excellent</td>
-                  <td>Excellent</td>
-                  <td>Excellent</td>
-                </tr>
-                <tr>
-                  <th scope="row">Arabic</th>
-                  <td>Excellent</td>
-                  <td>Excellent</td>
-                  <td>Excellent</td>
-                  <td>Excellent</td>
-                </tr>
-                <tr>
-                  <th scope="row">English</th>
-                  <td>Excellent</td>
-                  <td>Excellent</td>
-                  <td>Excellent</td>
-                  <td>Excellent</td>
-                </tr>
-              </tbody>
-            </table>            
-          </div>
-
-
-
-          <div class="row p-3 justify-content-center  ">
-          
-          </div>
-      </section>
-
-
-    <section class="m-1 py-4" id="project">
-      <div class="text-center mt-2">
-        <h3 class="pt-5 animate_char text-white">WELCOME TO MY PROJECT</h3>
-        <p class="pb-3 text-white fw-bold">CHOOSE THE BEST PROJECT WHICH SUIT YOU AND ORDER NOW </p>
-      </div>
-      <div class="row align-items-center justify-content-center" >
-        <div class="col-8 col-md-4 col-lg-3">
-          <div class=" bg-warning card border-2 shadow-lg">
-            <div class="card-body text-center py-4">
-              <h3 class="card title fs-4">ARDUINO PROJECT</h3>
-              <p class="lead mt-2 text-bg-success card-subtitle fs-6">DELIVERING ROOBOT</p>
-              <p class="display-6 my-2 text-primary fw-bold">$30.99</p>
-              <p class="card-text  text-muted">It is an a Roobot which can be controlled either manual or automatic to deliver products </p>
-              <a href="3" class="btn btn-outline-info mt-3">Like It &#10095</a>  
-
-            </div>
-          </div>
 
         </div>
-        <div class="col-10 col-md-4 col-lg-3">
-          <div class="bg-light card border-2 shadow-lg">
-            <div class="card-header text-center">FINAL PROJECT</div>
-            <div class="card-body text-center py-4">
-              <p class="lead text-bg-success card-subtitle fs-6">AUTOMATIC PLASTIC SORTING MACHINE</p>
-              <p class="display-6 my-2 text-primary fw-bold">$20.58</p>
-              <p class="card-text text-muted">Automatic Plastic Sorting Machine works by integrating image processing system with Arduino </p>
-              <a href="3" class="btn text-success btn-outline-info mt-3">Did You Like IT &#10095</a>  
-
-            </div>
-          </div>
-
-        </div>
-        <div class="col-8 col-md-4 col-lg-3">
-          <div class="bg-warning card border-2 shadow-lg">
-            <div class="card-body text-center py-4">
-              <h3 class="card title fs-4">JAVA PROJECT</h3>
-              <p class="lead mt-2 text-bg-success card-subtitle fs-6">RESTAURANT MANAGEMENT SYSTEM</p>
-              <p class="display-6 my-2 text-primary fw-bold">$15.00</p>
-              <p class="card-text text-muted">It is an a desktop app which used to order foods and drinks easly </p>
-              <a href="3" class="btn btn-outline-info mt-3">Did you Love it &#10000095</a>  
-
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-      <a href="#sidebar" class="text-center d-block " data-bs-toggle="offcanvas" role="button" aria-controls="sidebar" > See More my Project &#10095</a> 
-
-    </section>
-
-    <section class="mx-1" id="acadamic">
-      <div class="px-5 py-4">
-      <h1 class=" text-white text-center fst-italic animate_char pb-4">WELCOME TO MY ACADAMIC STATUS</h1>
-      <div class="accordion p-5 pt-5" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button bg-info border-bottom border-3 shadow-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Primary Level
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <p><code> -> Grade 8 Average point is 74%</code></p>
-              <p> -> I have finishd my priymary level Grade  1-8 in Melka Jebdu Primary And Secondary School From 1997-2004 </p>
-            </div>
-          </div>
-        </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-              <button class="border-bottom border-3 shadow-lg accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Secondary Level
-              </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p><code> -> Grade 10 point is 3.875</code></p>
-                <p> -> I have finishd my Secondary level Grade 9-10 in  Melka Jebdu Primary And Secondary School From 2005-2006 </p>
-                <p> -> I have also Good background history in my class for more you can see my Transcrip Document</p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-              <button class="border-bottom border-3 shadow-lg accordion-button bg-info collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Preparatory Level
-              </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p><code> -> Grade 12 point is 452</code></p>
-                <p> -> I have finishd my Preparatory level Grade 11-12 in  Dire Dawa Secondary and Prepareatory School From 2007-2008 </p>
-                <p> -> I have also Good background history in my class for more you can see my Transcrip Document</p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFour">
-              <button class="border-bottom border-3 accordion-button shadow-lg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                Degree Level
-              </button>
-            </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p><code> -> Bsc. Degree CGPA 3.86</code></p>
-                <p> -> I had Gratuated in Electrical and Computer Engineeering <code>Industrial Control Engineering Stream</code></p>
-                <p> -> I had also achevied the best grade from the Faculty of Electrical and Computer Engineering, due to this I got <code>Gold Medal</code> rewards</p>
-                <p> -> I have finishd my Bsc Degree level from Jimma University Jimma Instituit of Technology From 2009-2013 </p>
-
-              </div>
-            </div>
-          </div>
-      </div>   
-      
-       
-
-      </div>
-
-    </section>
-
-    <section class="m-1 p-4" id="university" class="px-5 align-content-center ">
-      <h1 class="text-center fst-italic  pt-5">My Document</h1>
-      <h4 class="text-center fst-italic pb-3">Full Acadamic Documents</h4>
-
-      <div class="px-5 py-2  justify-content-center align-content-center">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-
-            <div class="carousel-item active">
-              <img src="IMAGOCH/Tempo.JPG" class="d-block w-100 " style="width: 30%;" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h2 class="text-dark">Tempo</h2>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="IMAGOCH/cv.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5 class="text-dark">My CV</h5>
-                <p class="text-dark">Full Detail Curriculum Vitae</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="IMAGOCH/dorm_4.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>For additional Document You Can Contact Me</h5>
-                <p>Through Email or Call</p>
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-
-      </div>      
-    </section>
-
-        <!-- footer about social links -->
-
-    <section class="mx-1 mb-4" id="more" class="my-1">
-      <div class="text-center pt-5">
-        <p class="pt-5"> Fill out the form below to contact me ...  </p>    
-        <!-- <div class="water_wave">
-          <h2>hello every one</h2>
-        </div>     -->
-        <h1 class="pb-3 animate_char">Be Free For What Do You Want To Ask</h1>
-      </div>
-      <div class="container-lg pt-5">
-        <div class="row justify-content-center my-3">
-          <div class="col-lg-8">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe4fY8C7J0D5vkIxn65NYKkeV1Qy9Pv9iVujzyjwKVkMBOZmQ/viewform?embedded=true" width="350" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-            <!-- <form>
-              <label for="email" class="form-label">Email address:</label>
-              <input type="email" class="form-control" id="email" placeholder="e.g. abshehabece@gmail.com">
-              <label for="name" class="form-label">Full NAME:</label>
-              <input type="name" class="form-control" id="name" placeholder="e.g. Abdulfetah Shehab">
-
-              <label for="subject" class="form-label">What is your question about ?</label>
-              <select id="subject" class="form-select">
-                <option value="personal_info" selected>Personal Information</option>
-                <option value="language" selected>Language </option>
-                <option value="skill" selected>Skill</option>
-                <option value="project" selected>Project</option>
-                <option value="acadamic" selected>Acadamic Status</option>
-              </select>
-              <label for="tiyaqe" class="form-label"> Place Your Question below</label>
-              <textarea id="tiyaqe" class="form-control" style="height: 120px;"></textarea>
-
-              <div class="text-center py-2">
-                <button class="btn bg-danger text-white rounded-pill" data-bs-toggle="modal" data-bs-target="#d-modal">Submit</button>              
-              </div>
-
-            </form> -->
-          </div>
-        </div>        
-      </div>
-
-
-      
-      <div class="phone text-center d-grid bg-success px-5 ">
-        <div class="copyright text-center text-dark fs-6 fw-bold">
-          &copy; Copyright. All Rights Reserved
-          <h5 class="animate_char">Developed by: Abdulfetah Shehab</h5>
-        </div>
-        <a href=""> <i class=" bi bi-telephone">+251932173857</i></a>
-        <a href="https://t.me/Abdul_fetah" class="google-plus  "> <i class="bi bi-telegram"></i>https://t.me/Abdul_fetah</a>
-        <a href="https://www.abshehabece@gmail.com" class="Email" ><i class="bi bi-envelope pe-2"></i>abshehabece@gmail.com</a>
-        <a href="https://www.facebook.com/abdulfetah.shehap.7" class="facebook px-2"><i class="bi bi-facebook"></i>https://www.facebook.com/abdulfetah.shehap.7</a> 
-        <a href="https://www.linkedin.com/in/abdulfetah-shehab-7b354a248" class="Linkedin" ><i class="bi bi-linkedin pe-2"></i>https://www.linkedin.com/in/abdulfetah-shehab-7b354a248</a>  
-   
-      </div>
-
-    </section>
-
-    <div class="modal fade " id="d-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true" >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header bg-light">
-            <h3 class="modal-title" id="modal-title" >Check up the text !</h3>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body bg-warning">
-            <p>Sorry Please Send me Your Comment through my Email, Telegram or Phone Number Listed Below</p>
-            <label for="modal-email" class="form-label">if there is an error put her</label>
-            <input type="email" class="form-control" id="modal-email" placeholder="for formality only">
-          </div>
-          <div class="modal-footer">
-            <button class="btn btn-secondary">submit</button>
-          </div>
-        </div>
-      </div>
-
+        <!-- Main Content end -->
     </div>
-    
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="sidebar-label" >Detail Project Experiance</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <!-- Main Container End -->
 
-      </div>
-      <div class="offcanvas-body pro">
-       <p>1- In Java</p> 
-       <p>-> Motor speed and direction controling system using Java</p> 
-       <p>-> Students PC controling system in the university using Java</p> 
-       <p>-> Restaurant Management System using Java</p> 
-       <p>1-In Arduino and Python</p> 
-       <p>-> Authomatic and Manual Product Delivering Robot</p> 
-       <p>-> Authomatic Plastic Sorting Machine Using Image Proccessing</p> 
-       <p>3-In HTML, CSS, BOOTSTRAP and JS</p> 
-       <p>-> Image Gallary Front-end Website</p> 
-       <p>-> Developing Full Portfolio Like this one</p> 
-       <p>-> Scientific Calaculator for Computer</p> 
-       <p>4- In Android Studio</p> 
-       <p> -> Android based Home Automation System</p> 
-
-        
-
-      </div>
-
-    </div>
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script/jquery-3.7.1.js"></script>
+    <script src="script/script.js"></script>
 </body>
 </html>
