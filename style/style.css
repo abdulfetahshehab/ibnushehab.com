@@ -45,7 +45,6 @@ ul{
 
 .main-content{
     padding-left: 270px ;
-
 }
 .section{
     background: var(--bg-black-900);
@@ -863,7 +862,9 @@ form .two-one{
     }
     .main-content{
         padding-left: 0;
+        padding-top: 40px;
     }
+
     .heading{
         display: block;
     }
