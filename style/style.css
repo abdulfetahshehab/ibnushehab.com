@@ -24,6 +24,8 @@ body{
     outline: none;
     text-decoration: none;
     box-sizing: border-box;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
 }
 
 ::before,::after{
@@ -47,10 +49,12 @@ ul{
 }
 .section{
     background: var(--bg-black-900);
-    min-height: 100vh;
+    min-height:fit-content;
     display: block;
     padding: 0 30px;
     opacity: 1;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 .container{
     /* max-width: 1100px; */
@@ -58,8 +62,8 @@ ul{
     margin: auto;
 } 
 .section .container{
-    padding-top: 40px;
-    padding-bottom: 50px;
+    /* padding-top: 40px; */
+    padding-bottom: 20px;
 }
 .section-title{
     flex: 0 0 100%;
@@ -273,12 +277,11 @@ h3.my-profession{
     position: fixed;
     top: 0;
     z-index: 1000;
-
+    box-sizing: border-box;
 }
 .heading .heading_content{
     display: flex;
     padding-top: 10px;
-
 }
 .heading .heading_item{
     flex: 0 0 16.66%;
@@ -286,7 +289,7 @@ h3.my-profession{
 }
 .heading .heading_content a{
     color: gold ;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 400;
     text-decoration: none;
 }
@@ -294,10 +297,12 @@ h3.my-profession{
     color: white ;
 }
 .heading .heading_content .heading_item .fa{
-    margin-right: 5px;
+    margin-right: 3px;
 }
 /* About */
-
+.about .container{
+    margin-top: 20px;
+}
 .about .about_animate{
     opacity: 0;
     filter: blur(5px);
@@ -632,13 +637,11 @@ h3.my-profession{
 }
 
 /* Portfolio */
-.portfolio .container{
-    padding-bottom: 40px;
-}
+
 .portfolio .portfolio-heading{
     flex: 0 0 100%;
     max-width: 100%;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 .portfolio .projects{
     opacity: 0;
@@ -797,6 +800,7 @@ h3.my-profession{
     border-radius: 30%;
     background-color: wheat;
     color: green;
+    max-width: 315px;
     width: max-content;
     height: max-content;
     font-family: 'Times New Roman', Times, serif;
@@ -894,7 +898,9 @@ form .two-one{
         flex: 0 0 100%;
         max-width: 100%;
     }
-
+    #language .container{
+        height: 750px;
+    }
     .home .home-img{
         margin-top: 40px;
     }
@@ -906,7 +912,7 @@ form .two-one{
         border-bottom: 10px solid gold;
         border-right: 10px solid gold;
         bottom: -30px;
-        right: -170px;
+        right: -200px;
     }
     .home-img::before{
         content: '';
