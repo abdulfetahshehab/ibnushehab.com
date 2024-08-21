@@ -1,7 +1,7 @@
 
 
 var typed =new Typed(".typing",{
-    strings:["","Web Designer", "Web Developer", "Brocher, Banner and .. Designer","Electric Installer","Solar Installer"],
+    strings:["","Web Designer", "Web Developer","Android App Developer" "Brocher, Banner and .. Designer","Electric Installer","Solar Installer"],
     typeSpeed:100,
     BackSpeed:60,
     loop:true
@@ -23,6 +23,7 @@ const observer = new IntersectionObserver((entries) => {
         }
     });
 });
+
 const hiddenElement = document.querySelectorAll(".about_animate");
 hiddenElement.forEach((el) => observer.observe(el));
 
@@ -119,7 +120,7 @@ registrationForm.onsubmit = formChecker;
 
 let errorDisplayBox = document.getElementById("error_display");
 let succeessDisplayBox = document.getElementById("success_display");
-let successText = " Thanks you have Succeessfully Sended !!!!! ";
+let successText = " Thanks you have Succeessfully Sent !!!!! ";
 let successText2 = " but not reached to Abdulfetah due to lack of php code.";
 let successText3 = "please get him through the above contacts";
 let errors =[];
