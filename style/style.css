@@ -920,7 +920,7 @@ form .two-one{
         border-bottom: 10px solid var(--skin-color);
         border-right: 10px solid var(--skin-color);
         bottom: -30px;
-        right: -40px;
+        right: -110px;
     }
     .home-img::before{
         content: '';
@@ -990,7 +990,7 @@ form .two-one{
         border-bottom: 10px solid var(--skin-color);
         border-right: 10px solid var(--skin-color);
         bottom: -30px;
-        right: -70px;
+        right: -30px;
     }
     .home-img::before{
         content: '';
@@ -1018,8 +1018,8 @@ form .two-one{
         width: 150px;
         border-bottom: 10px solid gold;
         border-right: 10px solid gold;
-        bottom: -30px;
-        right: -130px;
+        bottom: -20px;
+        right: -200px;
     }
     .home-img::before{
         content: '';
@@ -1031,6 +1031,9 @@ form .two-one{
         border-left: 10px solid gold;
         top: -40px;
         left: -10px;
+    }
+    .home .home-img img{
+        height: 330px;
     }
 
 }
