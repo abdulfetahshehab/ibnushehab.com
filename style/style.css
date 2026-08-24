@@ -952,6 +952,9 @@ form .two-one{
     #language .container{
         height: 750px;
     }
+    .home .home-info #para{
+        font-size: 11px;
+    }
     .home .home-img{
         margin-top: 40px;
     }
