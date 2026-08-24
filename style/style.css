@@ -904,18 +904,13 @@ form .two-one{
         display: block;
         margin-left: 0;
     }
+    .home .home-img{
+        display: block;
+        margin-top: 25px;
+    }
     .home .home-info{
         flex: 0 0 100%;
         max-width: 100%;
-    }
-
-    .home .home-img{
-        display: none;
-        margin-top: 25px;
-    }
-
-    .home .home-img img{
-        height: 350px;
     }
     .home-img::after{
         content: '';
@@ -925,7 +920,7 @@ form .two-one{
         border-bottom: 10px solid var(--skin-color);
         border-right: 10px solid var(--skin-color);
         bottom: -30px;
-        right: -30px;
+        right: -40px;
     }
     .home-img::before{
         content: '';
@@ -935,11 +930,15 @@ form .two-one{
         margin-top: 15px;
         border-top: 10px solid var(--skin-color);
         border-left: 10px solid var(--skin-color);
-        top: -35px;
+        top: -30px;
         left: -10px;
+    }
+    .home .home-img img{
+        height: 370px;
     }
 
 }
+
 @media(max-width:900px){
     .main-content{
         padding-left: 0;
@@ -970,6 +969,7 @@ form .two-one{
     #language .container{
         height: 750px;
     }
+
     .home .home-info #para{
         font-size: 11px;
     }
@@ -990,7 +990,7 @@ form .two-one{
         border-bottom: 10px solid var(--skin-color);
         border-right: 10px solid var(--skin-color);
         bottom: -30px;
-        right: -90px;
+        right: -70px;
     }
     .home-img::before{
         content: '';
@@ -1004,8 +1004,8 @@ form .two-one{
         left: -10px;
     }
     .home .home-img img{
-    height: 370px;
-}
+        height: 360px;
+    }
 }
 
 @media(max-width:767px){
