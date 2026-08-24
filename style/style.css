@@ -19,8 +19,8 @@
 }
 .slide-track{
     display: flex;
-    width: calc(10%*6);
-    animation: slide 10s linear infinite;
+    width: calc(14%*8);
+    animation: slide 14s linear infinite;
 }
 .slide{
     width: 100%;
@@ -168,7 +168,7 @@ ul{
     justify-content: center;
     align-items: center;
 }
-.aside .nav-toggler{
+/* .aside .nav-toggler{
     height: 40px;
     width: 45px;
     border: 1px solid var(--bg-black-50);
@@ -206,7 +206,7 @@ ul{
     position: absolute;
     top: 6px;
     left: 0;
-}
+} */
 .aside .nav{
     margin-top: 50px;
 }
@@ -898,21 +898,27 @@ form .two-one{
 }
 
 @media (max-width:1199px){
-    .aside{
-        left: -270px;
-    }
-    .main-content{
-        padding-left: 0;
-        padding-top: 40px;
-    }
 
 
     .about .about-content .personal-info .info-item p span{
         display: block;
         margin-left: 0;
     }
+
 }
-@media(max-width:991px){
+@media(max-width:900px){
+    .main-content{
+        padding-left: 0;
+        padding-top: 40px;
+    }
+    form .two-one,
+    .about .about-content .experiance,
+    .about .about-content .education,
+    .about .about-content .skill,
+    .about .about-content .personal-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
     .language .language-item,
     .contact .contact-info-item,
     .portfolio .portfolio-item{
@@ -927,25 +933,11 @@ form .two-one{
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .heading{
-        display: block;
-    }
-    
+
+
     .home .home-img{
         display: none;
     }
-}
-@media(max-width:767px){
-    form .two-one,
-    .about .about-content .experiance,
-    .about .about-content .education,
-    .about .about-content .skill,
-    .about .about-content .personal-info{
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-
-
     .slide img{
         height: 250px;
     }
@@ -958,6 +950,17 @@ form .two-one{
     .home .home-img{
         margin-top: 40px;
     }
+    .aside{
+        left: -270px;
+    }
+    .heading{
+        display: block;
+    }
+}
+
+@media(max-width:767px){
+
+
     .home-img::after{
         content: '';
         position: absolute;
